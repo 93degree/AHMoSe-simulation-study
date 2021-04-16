@@ -1,0 +1,96 @@
+timestamp,level,stage,message,name,value
+19:40:09.863,Info,Workflow,Project: scenario-A_07102019_194009,NA,NA
+19:40:09.864,Info,Workflow,AutoML job created: 2019.10.07 19:40:09.858,creation_epoch,1570477210
+19:40:09.864,Info,ModelTraining,Disabling Algo: DeepLearning as requested by the user.,NA,NA
+19:40:09.864,Info,ModelTraining,Disabling Algo: StackedEnsemble as requested by the user.,NA,NA
+19:40:09.864,Info,Workflow,Build control seed: 93,NA,NA
+19:40:09.866,Info,DataImport,training frame: Frame key: automl_training_train_data.hex_sid_89bf_1    cols: 5    rows: 96  chunks: 1    size: 964  checksum: 1273528470506617992,NA,NA
+19:40:09.866,Info,DataImport,validation frame: NULL,NA,NA
+19:40:09.866,Info,DataImport,leaderboard frame: NULL,NA,NA
+19:40:09.866,Info,DataImport,response column: GTQ,NA,NA
+19:40:09.867,Info,DataImport,fold column: null,NA,NA
+19:40:09.867,Info,DataImport,weights column: null,NA,NA
+19:40:09.938,Info,Workflow,Setting stopping tolerance adaptively based on the training frame: 0.05,NA,NA
+19:40:09.950,Info,Workflow,AutoML build started: 2019.10.07 19:40:09.947,start_epoch,1570477210
+19:40:09.958,Debug,ModelTraining,XGBoost_1_AutoML_20191007_194009 started,NA,NA
+19:40:12.959,Debug,ModelTraining,XGBoost_1_AutoML_20191007_194009 complete,NA,NA
+19:40:12.961,Info,ModelTraining,"New leader: XGBoost_1_AutoML_20191007_194009, rmse: 0.40694792942146846",NA,NA
+19:40:12.962,Debug,ModelTraining,XGBoost_2_AutoML_20191007_194009 started,NA,NA
+19:40:14.962,Debug,ModelTraining,XGBoost_2_AutoML_20191007_194009 complete,NA,NA
+19:40:14.965,Debug,ModelTraining,XGBoost_3_AutoML_20191007_194009 started,NA,NA
+19:40:16.965,Debug,ModelTraining,XGBoost_3_AutoML_20191007_194009 complete,NA,NA
+19:40:16.966,Info,ModelTraining,"New leader: XGBoost_3_AutoML_20191007_194009, rmse: 0.3956675160929176",NA,NA
+19:40:16.967,Info,ModelTraining,AutoML: starting GLM hyperparameter search,NA,NA
+19:40:16.984,Debug,ModelTraining,GLM hyperparameter search started,NA,NA
+19:40:17.985,Debug,ModelTraining,Built: 1 models for search: GLM hyperparameter search,NA,NA
+19:40:17.985,Debug,ModelTraining,GLM hyperparameter search complete,NA,NA
+19:40:17.987,Debug,ModelTraining,Default Random Forest build started,NA,NA
+19:40:18.987,Debug,ModelTraining,Default Random Forest build complete,NA,NA
+19:40:18.989,Debug,ModelTraining,GBM 1 started,NA,NA
+19:40:19.989,Debug,ModelTraining,GBM 1 complete,NA,NA
+19:40:19.992,Debug,ModelTraining,GBM 2 started,NA,NA
+19:40:20.992,Debug,ModelTraining,GBM 2 complete,NA,NA
+19:40:21.3,Debug,ModelTraining,GBM 3 started,NA,NA
+19:40:22.4,Debug,ModelTraining,GBM 3 complete,NA,NA
+19:40:22.6,Debug,ModelTraining,GBM 4 started,NA,NA
+19:40:23.6,Debug,ModelTraining,GBM 4 complete,NA,NA
+19:40:23.9,Warn,ModelTraining,"Skipping training of model GBM_5_AutoML_20191007_194009 due to exception: water.exceptions.H2OModelBuilderIllegalArgumentException: Illegal argument(s) for GBM model: GBM_5_AutoML_20191007_194009.  Details: ERRR on field: _min_rows: The dataset size is too small to split for min_rows=100.0: must have at least 200.0 (weighted) rows, but have only 96.0.
+",NA,NA
+19:40:23.10,Debug,ModelTraining,Extremely Randomized Trees (XRT) Random Forest build started,NA,NA
+19:40:24.10,Debug,ModelTraining,Extremely Randomized Trees (XRT) Random Forest build complete,NA,NA
+19:40:24.11,Info,ModelTraining,AutoML: starting XGBoost hyperparameter search,NA,NA
+19:40:24.653,Debug,ModelTraining,XGBoost hyperparameter search started,NA,NA
+19:40:26.654,Debug,ModelTraining,Built: 1 models for search: XGBoost hyperparameter search,NA,NA
+19:40:27.655,Debug,ModelTraining,Built: 2 models for search: XGBoost hyperparameter search,NA,NA
+19:40:28.656,Debug,ModelTraining,Built: 3 models for search: XGBoost hyperparameter search,NA,NA
+19:40:29.657,Debug,ModelTraining,Built: 4 models for search: XGBoost hyperparameter search,NA,NA
+19:40:31.658,Debug,ModelTraining,Built: 5 models for search: XGBoost hyperparameter search,NA,NA
+19:40:32.658,Debug,ModelTraining,Built: 6 models for search: XGBoost hyperparameter search,NA,NA
+19:40:34.660,Debug,ModelTraining,Built: 7 models for search: XGBoost hyperparameter search,NA,NA
+19:40:35.663,Debug,ModelTraining,Built: 8 models for search: XGBoost hyperparameter search,NA,NA
+19:40:37.664,Debug,ModelTraining,Built: 9 models for search: XGBoost hyperparameter search,NA,NA
+19:40:37.665,Info,ModelTraining,"New leader: XGBoost_grid_1_AutoML_20191007_194009_model_9, rmse: 0.3955774890978161",NA,NA
+19:40:41.687,Debug,ModelTraining,Built: 10 models for search: XGBoost hyperparameter search,NA,NA
+19:40:42.688,Debug,ModelTraining,Built: 11 models for search: XGBoost hyperparameter search,NA,NA
+19:40:43.689,Debug,ModelTraining,Built: 12 models for search: XGBoost hyperparameter search,NA,NA
+19:40:45.691,Debug,ModelTraining,Built: 13 models for search: XGBoost hyperparameter search,NA,NA
+19:40:46.692,Debug,ModelTraining,Built: 14 models for search: XGBoost hyperparameter search,NA,NA
+19:40:48.693,Debug,ModelTraining,Built: 15 models for search: XGBoost hyperparameter search,NA,NA
+19:40:49.694,Debug,ModelTraining,Built: 16 models for search: XGBoost hyperparameter search,NA,NA
+19:40:50.695,Debug,ModelTraining,Built: 17 models for search: XGBoost hyperparameter search,NA,NA
+19:40:51.696,Debug,ModelTraining,Built: 18 models for search: XGBoost hyperparameter search,NA,NA
+19:40:52.698,Debug,ModelTraining,Built: 19 models for search: XGBoost hyperparameter search,NA,NA
+19:40:53.699,Debug,ModelTraining,Built: 20 models for search: XGBoost hyperparameter search,NA,NA
+19:40:55.700,Debug,ModelTraining,Built: 21 models for search: XGBoost hyperparameter search,NA,NA
+19:40:56.702,Debug,ModelTraining,Built: 22 models for search: XGBoost hyperparameter search,NA,NA
+19:40:57.703,Debug,ModelTraining,Built: 23 models for search: XGBoost hyperparameter search,NA,NA
+19:40:59.704,Debug,ModelTraining,Built: 24 models for search: XGBoost hyperparameter search,NA,NA
+19:41:01.706,Debug,ModelTraining,Built: 25 models for search: XGBoost hyperparameter search,NA,NA
+19:41:03.707,Debug,ModelTraining,Built: 26 models for search: XGBoost hyperparameter search,NA,NA
+19:41:05.709,Debug,ModelTraining,Built: 27 models for search: XGBoost hyperparameter search,NA,NA
+19:41:06.710,Debug,ModelTraining,Built: 28 models for search: XGBoost hyperparameter search,NA,NA
+19:41:06.711,Debug,ModelTraining,XGBoost hyperparameter search complete,NA,NA
+19:41:06.711,Info,ModelTraining,AutoML: starting GBM hyperparameter search,NA,NA
+19:41:08.200,Debug,ModelTraining,GBM hyperparameter search started,NA,NA
+19:41:09.200,Debug,ModelTraining,Built: 2 models for search: GBM hyperparameter search,NA,NA
+19:41:10.202,Debug,ModelTraining,Built: 3 models for search: GBM hyperparameter search,NA,NA
+19:41:11.205,Debug,ModelTraining,Built: 6 models for search: GBM hyperparameter search,NA,NA
+19:41:12.206,Debug,ModelTraining,Built: 12 models for search: GBM hyperparameter search,NA,NA
+19:41:14.208,Debug,ModelTraining,Built: 18 models for search: GBM hyperparameter search,NA,NA
+19:41:15.210,Debug,ModelTraining,Built: 22 models for search: GBM hyperparameter search,NA,NA
+19:41:16.212,Debug,ModelTraining,Built: 27 models for search: GBM hyperparameter search,NA,NA
+19:41:17.214,Debug,ModelTraining,Built: 31 models for search: GBM hyperparameter search,NA,NA
+19:41:18.217,Debug,ModelTraining,Built: 36 models for search: GBM hyperparameter search,NA,NA
+19:41:19.221,Debug,ModelTraining,Built: 42 models for search: GBM hyperparameter search,NA,NA
+19:41:20.222,Debug,ModelTraining,Built: 48 models for search: GBM hyperparameter search,NA,NA
+19:41:21.225,Debug,ModelTraining,Built: 52 models for search: GBM hyperparameter search,NA,NA
+19:41:22.227,Debug,ModelTraining,Built: 54 models for search: GBM hyperparameter search,NA,NA
+19:41:23.228,Debug,ModelTraining,Built: 58 models for search: GBM hyperparameter search,NA,NA
+19:41:24.231,Debug,ModelTraining,Built: 63 models for search: GBM hyperparameter search,NA,NA
+19:41:24.232,Debug,ModelTraining,GBM hyperparameter search complete,NA,NA
+19:41:24.233,Info,ModelTraining,StackedEnsemble builds skipped due to the exclude_algos option.,NA,NA
+19:41:24.233,Info,Workflow,AutoML build stopped: 2019.10.07 19:41:24.233,stop_epoch,1570477284
+19:41:24.233,Info,Workflow,AutoML build done: built 101 models,NA,NA
+19:41:24.233,Info,Workflow,AutoML duration:  1 min 14.286 sec,duration_secs,74
+19:41:24.240,Debug,Workflow,Verifying training frame immutability. . .,NA,NA
+19:41:24.240,Debug,Workflow,Training frame was not mutated (as expected).,NA,NA

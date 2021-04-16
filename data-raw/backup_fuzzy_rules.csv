@@ -1,0 +1,73 @@
+TSS,TA,Anth,BW,GTQ
+H,H,VH,L,Excellent
+H,H,VH,M,Excellent
+H,H,VH,H,Good
+H,H,H,L,Excellent
+H,H,H,M,Excellent
+H,H,H,H,Good
+H,H,M,L,Excellent
+H,H,M,M,Good
+H,H,M,H,Average
+H,H,L,L,Good
+H,H,L,M,Average
+H,H,L,H,Poor
+H,M,VH,L,Excellent
+H,M,VH,M,Excellent
+H,M,VH,H,Good
+H,M,H,L,Excellent
+H,M,H,M,Good
+H,M,H,H,Average
+H,M,M,L,Good
+H,M,M,M,Average
+H,M,M,H,Poor
+H,M,L,L,Average
+H,M,L,M,Poor
+H,M,L,H,Very Poor
+H,L,VH,L,Excellent
+H,L,VH,M,Good
+H,L,VH,H,Average
+H,L,H,L,Good
+H,L,H,M,Average
+H,L,H,H,Poor
+H,L,M,L,Average
+H,L,M,M,Poor
+H,L,M,H,Very Poor
+H,L,L,L,Poor
+H,L,L,M,Very Poor
+H,L,L,H,Very Poor
+L,H,VH,L,Good
+L,H,VH,M,Good
+L,H,VH,H,Average
+L,H,H,L,Good
+L,H,H,M,Good
+L,H,H,H,Average
+L,H,M,L,Good
+L,H,M,M,Average
+L,H,M,H,Poor
+L,H,L,L,Average
+L,H,L,M,Poor
+L,H,L,H,Very Poor
+L,M,VH,L,Good
+L,M,VH,M,Good
+L,M,VH,H,Average
+L,M,H,L,Good
+L,M,H,M,Average
+L,M,H,H,Poor
+L,M,M,L,Average
+L,M,M,M,Poor
+L,M,M,H,Very Poor
+L,M,L,L,Poor
+L,M,L,M,Very Poor
+L,M,L,H,Very Poor
+L,L,VH,L,Good
+L,L,VH,M,Average
+L,L,VH,H,Poor
+L,L,H,L,Average
+L,L,H,M,Poor
+L,L,H,H,Very Poor
+L,L,M,L,Poor
+L,L,M,M,Very Poor
+L,L,M,H,Very Poor
+L,L,L,L,Very Poor
+L,L,L,M,Very Poor
+L,L,L,H,Very Poor
